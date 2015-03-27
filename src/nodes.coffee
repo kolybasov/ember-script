@@ -1,7 +1,7 @@
 {map, concat, concatMap, difference, nub, union} = require './functional-helpers'
 exports = module?.exports ? this
 
-require './ember-runtime' unless Ember?
+require './ember-runtime' # unless Ember?
 
 # TODO: make sure all the type signatures are correct
 
